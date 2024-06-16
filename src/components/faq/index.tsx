@@ -17,25 +17,25 @@ type FAQItem = {
 
 const content: FAQItem[] = [
   {
-    question: "Lorem ipsum dolor sit amet?",
+    question: "Can I use Snag Ai for free?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Yes you can use snag Ai for free but it is limited to the number of summaries you can do.",
     link: "https://google.com",
   },
   {
-    question: "Ut enim ad minim veniam?",
+    question: "Can i export my video summaries?",
     answer:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Yes you can export in pdf format the responses to all your AI requests.",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit?",
+    question: "How do I cancel, change plans, or change credit cards?",
     answer:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "You can manage your subscription from the Manage Subscription section found in the main app menu.",
   },
   {
-    question: "Excepteur sint occaecat cupidatat non proident?",
+    question: "Do you offer refunds?",
     answer:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Yes, if you are not satisfied with our product within the first 30 days, we will refund you.",
   },
 ];
 

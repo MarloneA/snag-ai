@@ -21,19 +21,17 @@ import Feature from "@/components/features";
 import Hero from "@/components/cta-landingpage";
 import FAQ from "@/components/faq";
 import Footer from "@/components/footer";
+import { Input } from "@/components/__ui/input";
 
 export default async function Home() {
   return (
     <main>
-      <NavBar />
       <section>
         <div className="flex items-center justify-center flex-col mt-[80px] gap-8 ">
-          <TypographySmall>A shadcn powered ui starter kit</TypographySmall>
-          <TypographyH1>SAAS Starter Kit</TypographyH1>
+          <TypographySmall>Powered by Open AI</TypographySmall>
+          <TypographyH1>Transform your youtube experience</TypographyH1>
           <TypographyP>
-            A fullstack Nextjs, typescript, shadcn starter kit to {"kick"}
-            <br /> start any saas application with a collection of common saas
-            strategies and platform to suit your needs
+            Use AI to summarize YouTube videos and comments in one click.
           </TypographyP>
           <Link
             href="/dashboard"
@@ -41,12 +39,9 @@ export default async function Home() {
           >
             Get Started For Free
           </Link>
-          <Image
-            src="/images/landing.png"
-            width={1080}
-            height={100}
-            alt="Logo"
-            className=" object-contain border-black border-4 m-10 rounded-lg"
+          <Input
+            className="w-1/2 h-[6rem] text-center"
+            placeholder="Paste a link to a youtube video here and watch it give you the summary of the video"
           />
         </div>
       </section>
@@ -56,8 +51,8 @@ export default async function Home() {
       >
         <TypographyH2>Features</TypographyH2>
         <TypographyP>
-          This fully built starter kit comes packed with features that are
-          necessarry for building a fully functional saas app
+          Snag Ai comes powered with the latest features from open ai to deliver
+          you accurate and realtime results
           <br />
           {" you're"} not ready to commit you can get started for free.
         </TypographyP>
@@ -127,7 +122,6 @@ export default async function Home() {
       </section>
       <FAQ />
       <Hero />
-      <Footer />
     </main>
   );
 }

@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="flex gap-5 justify-between items-center px-7 p-2 font-bold leading-[154.5%] max-md:flex-wrap max-md:px-5">
       <div className="flex gap-1.5 justify-center self-stretch my-auto text-2xl tracking-tighter">
-        <TypographyH2>SAAS kit</TypographyH2>
+        <TypographyH2>SNAG AI</TypographyH2>
       </div>
       <TypographyList className="gap-5 list-none justify-between self-stretch my-auto text-md leading-5 text-neutral-700 max-md:flex-wrap max-md:max-w-full font-normal hidden md:flex">
         <TypographyListItem>

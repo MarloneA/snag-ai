@@ -17,18 +17,18 @@ type FeatureText = {
 const featureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
+    title: "Summarize videos",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Our advanced AI system will understand and summarize any of your Youtube videos.",
     cta: "Learn More",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
+    title: "Search Comment Section",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Browse through and understand the sentiment within comments sections to understand what sentiments the viewers had.",
     cta: "Learn More",
   },
 ];
@@ -36,10 +36,10 @@ const featureText: FeatureText[] = [
 const singleFeatureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
+    title: "Ask AI",
     href: "/",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Unlock youtube video secrets by asking AI and interacting with the content without spending hours on it. With this feature you don't have to waste your time watching and scrolling through comment section just to find out your topic of interest was not covered",
     cta: "Learn More",
   },
 ];
@@ -50,14 +50,10 @@ const Feature = () => {
       <Layout.Container className="not-prose">
         <div className="flex flex-col gap-6">
           <h3 className="text-4xl">
-            <Balancer>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </Balancer>
+            <Balancer>Supercharge your youtube experience</Balancer>
           </h3>
           <h4 className="text-2xl font-light opacity-70">
-            <Balancer>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </Balancer>
+            <Balancer>leveraging the power of Open AI and gpt4o</Balancer>
           </h4>
 
           <div className="mt-6 grid gap-6 md:mt-12 md:grid-cols-2">
